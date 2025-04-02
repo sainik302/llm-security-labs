@@ -80,7 +80,7 @@ adversarial_example = tf.clip_by_value(adversarial_example, 0.0, 1.0)
 # Visual comparison between original and adversarial image
 plt.subplot(1, 2, 1)
 plt.title("Original")
-plt.imshow(image[0], cmap='gray')
+plt.imshow(image[0], cmap='gray') 
 
 plt.subplot(1, 2, 2)
 plt.title("Adversarial")
